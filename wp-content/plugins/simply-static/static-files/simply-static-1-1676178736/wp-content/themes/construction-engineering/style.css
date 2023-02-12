@@ -1,0 +1,225 @@
+/*
+Theme Name: Construction Engineering
+Template: construction-hub
+Text Domain: construction-engineering
+Author: ThemesPride
+Author URI: https://www.themespride.com/
+Theme URI: https://www.themespride.com/themes/free-engineering-wordpress-theme/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Construction Engineering is a robust, professional and reliable theme. This theme will help you establish your business or services online and get you clients. It is suitable for building companies or agency, reconstruction services, flooring renovation, architecture, construction materials, home renovation, home repair and maintenance services, electrician, carpenter, painting, handyman, contractor, plumber and all such construction related websites. It comes SEO-ready to help your site rank on Google and other search engines. It is packed with a lot of features and options to let you customize and put forth your business online in a unique way. Your site should be responsive to view on any device therefore Construction Engineering is made mobile-friendly. Pre-built pages and different layouts are available to make the process of building a site easier. It offers compatibility with various WordPress plugins like WooCommerce, Contact form 7, Mailchimp, Yoast SEO and many more. To make your site free of bugs, the theme is fully developed with clean and optimized codes. It enables you to add custom post types using available shortcodes. Foundation on bootstrap framework makes it handy and more user-friendly to work with. Translation of pages into different languages is possible as it is translation-ready.
+Tags: wide-blocks, block-styles, one-column, two-columns, right-sidebar, left-sidebar, three-columns, four-columns, grid-layout, custom-colors, custom-header, custom-background, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, blog, portfolio, photography
+Version: 1.8
+Tested up to: 6.1
+Requires PHP: 5.6
+Requires at least: 5.0
+*/
+
+a,.box-content a, #theme-sidebar .textwidget a, #footer .textwidget a, .comment-body a, .entry-content a, .entry-summary a,.headerbox i,.main-navigation a:hover,#theme-sidebar h3,#theme-sidebar a:hover,#footer h3,.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a,#theme-sidebar button[type="submit"]:hover, #comments input[type="submit"]:hover, span.meta-nav:hover, .search-box i:hover{
+  color: #e8151b;
+}
+.readmore-btn a:hover,.logo,.search-box i,#theme-sidebar button[type="submit"], #footer button[type="submit"],.prev.page-numbers, .next.page-numbers,.page-numbers,#theme-sidebar .tagcloud a:hover,.site-info,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,#comments input[type="submit"],.main-navigation ul ul a:hover,span.meta-nav,.more-btn a{
+  background: #e8151b;
+}
+.readmore-btn a,#footer .tagcloud a:hover,.search_inner form.search-form{
+  border-color: #e8151b;
+}
+
+h1, h2, h3, h4, h5, h6,.box-info i{
+  color: #000000;
+}
+.headerbox,.menubar,#slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover,.more-btn a:hover,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,.woocommerce span.onsale,#footer,.main-navigation ul ul,#theme-sidebar button[type="submit"]:hover, #comments input[type="submit"]:hover, span.meta-nav:hover, .search-box i:hover,span.page-numbers.current,.page-numbers:hover,.prev.page-numbers:focus, .prev.page-numbers:hover, .next.page-numbers:focus, .next.page-numbers:hover{
+  background: #000000;
+}
+
+#main-content a{
+  text-decoration: underline;
+}
+
+.slide-box {
+  position: relative;
+}
+#header {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.logo{
+  position: static;
+  margin: 0;
+  border-radius: 0;
+  width: auto;
+  height: auto;
+}
+.headerbox{
+  padding: 0;
+}
+.main-navigation li{
+  padding: 12px;
+}
+.search-box i {
+  color: #fff !important;
+  padding: 16px;
+  font-size: 15px;
+}
+.search-box button.search_btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+span.simplep {
+  color: #fff;
+  font-size: 18px;
+}
+.contact-section {
+  text-align: right;
+}
+span.infotext {
+  font-size: 15px;
+}
+.main-navigation a{
+  color: #fff;
+  border: none;
+}
+.search_inner{
+  max-width: 100%;
+}
+
+/* SLIDER CSS */
+
+#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon {
+  border: none;
+  background: #e8151b;
+  border-radius: 5px;
+}
+
+/* SERVICES CSS */
+
+#our_services .box{
+  position: relative;
+}
+#our_services .box-content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0 0 0 / 55%);
+  width: 100%;
+}
+#our_services .box-content h3 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+#our_services .box-btn i {
+  background: #e8151b;
+  padding: 8px 12px;
+  color: #fff;
+  border-radius: 3px;
+}
+#our_services h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+/* OTHER CSS */
+
+.site-info a:hover{
+  color: #000;
+}
+
+/* OTHER CSS */
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+  border: 1px solid #333;
+  padding: 2px;
+}
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+
+a.added_to_cart.wc-forward {
+  background: #e8151b;
+  color: #fff;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px 35px 10px 35px;
+}
+
+a.added_to_cart.wc-forward:hover{
+  background: #222;
+}
+
+@media screen and (max-width: 1000px){
+  #header {
+    position: static;
+  }
+  .contact-section {
+    text-align: center;
+  }
+  .toggle-nav i {
+    font-size: 15px;
+    color: #fff;
+  }
+  .toggle-nav{
+    text-align: left;
+  }
+  .toggle-nav button {
+    margin: 0;
+    padding: 7px;
+    background: #e8151b;
+  }
+  .sidenav{
+    background: #000000;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+  #return-to-top{
+    background: #000;
+  }
+}
+
+@media screen and (max-width: 1000px){
+#slider .carousel-caption {
+    top: 48%;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+  .search-box i {
+    padding: 10px;
+  }
+  .box-btn i {
+    padding: 8px;
+  }
+}
